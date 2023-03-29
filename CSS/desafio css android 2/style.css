@@ -1,0 +1,170 @@
+@charset "utf-8";
+@font-face {
+    font-family: android;
+    src: url('fontes/idroid.otf');
+}
+body{
+
+    background-color: rgb(164, 233, 170);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.cabeçalho{
+    background-color: green;
+    background-image: linear-gradient(to top, green, rgba(35, 172, 35, 0.795));
+    text-align: center;
+    margin-left: -15px;
+    margin-top: -21px;
+    padding-top: 30px;
+    color: white;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+nav{
+    text-align: left;
+    margin-left: 10px;
+    text-decoration: none;
+    
+}
+
+
+
+nav > a{
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.5s;
+    margin-left: 20px;
+    
+
+}
+
+nav > a:hover{
+background-color: greenyellow;
+color: white;
+
+}
+
+
+main > h1{
+
+    color: green;
+    margin: 0px;
+    padding: 20px;
+    font-family: android;
+
+}
+
+main > h2{
+    
+    color: green;
+    
+    background-image: linear-gradient(to right, rgb(199, 221, 199), white);
+    margin: 0px;
+    padding: 0px;
+    font-family: android;
+}
+
+main > p{
+
+    margin-left: 15px;
+    color: black;
+   
+    
+}
+
+main{
+    background-color: white;
+    border-radius: 27px;
+
+    margin:auto;
+
+  min-width: 320px;
+  max-width: 800px;
+}
+
+
+main > img{
+    width: 100%;
+    
+}
+
+iframe{
+    width: 100%;
+}
+
+.video{
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    background-color: green;
+}
+
+
+#link-android > a{
+    text-decoration: underline;
+    color: green;
+}
+
+.lista{
+
+    background-color: rgb(160, 226, 180);
+    padding: 20px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.lista > p{
+    text-align: left;
+    padding-left: 20px;
+
+    
+}
+
+.lista > ul{
+
+    list-style-position:inside;
+    columns: 2;
+    list-style: square;
+
+}
+
+
+#aprender{
+    background-color: green;
+    margin: auto;
+    height: 35px;
+    width: auto;
+    border-radius: 71px;
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+
+
+}
+
+strong{
+    text-decoration: none;
+    color: green;
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+abbr{
+    text-decoration: none;
+}
+
