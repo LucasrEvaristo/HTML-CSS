@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    background-image: url('https://s3.us-east-1.amazonaws.com/vnda-cockpit/www-streetopia-me/2020/12/06/5fcd11af5c818nocta04.jpg');
+    background-size: cover;
+}
+
+
+
+    .quadrado{
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 10px;
+        height: 300px;
+        width: 300px;
+    }
+
+#q1{
+background-color: blue;
+}
+
+#q2{
+background-image: linear-gradient(to left, white, black);
+}
+
+#q3{
+background-image: url('pattern003.png');
+}
