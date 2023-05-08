@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>testando formularios</h1>
+
+    <form autocomplete="on" method="post">
+        <p>nome: <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Bote seu nome">
+        </p>
+
+        <p>Sobrenome: <input type="text" name="sobrenome" id="isobrenome" required placeholder="Sobrenome">
+        </p>
+
+        <p>senha: <input type="password" name="senha" id="isenha" minlength="8" autocomplete="current-password" placeholder="digite sua senha"></p>
+
+        <p>Nota da prova: <input type="number" name="nota" id="inota" placeholder="nota 0 a 10" step="0.1">
+        </p>
+
+        <p>Calendario: <input type="date" name="caldendario" id="icalendario" value="2023-05-08">
+        </p>
+
+        <p>email: <input type="email" name="email" id="iemail" placeholder="bote seu email">
+        </p>
+
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+        
+    </form>
+</body>
+</html>
