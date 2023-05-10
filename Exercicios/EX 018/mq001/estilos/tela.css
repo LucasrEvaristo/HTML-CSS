@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header{
+    background-color: darkgrey;
+}
+
+header > h1{
+    text-align: center;
+}
+
+menu ul{
+    background-color: rgb(44, 44, 44);
+    list-style-type: none;
+    display: inline-block;
+}
+
+menu li {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    
+}
+
+article{
+    margin: auto;
+    display: block;
+    width: 600px;
+    text-align: justify;
+}
+
+article > h2{
+    text-align: center;
+}
